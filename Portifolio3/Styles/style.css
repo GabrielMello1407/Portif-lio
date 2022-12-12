@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+
+:root{
+    --cor1:#F25835;
+    --cor2:#F2C894;
+    --cor3:#F28705;
+    --cor4:#F29F05;
+    --cor5:#F2CB05;
+    --font1: 'Zen Dots', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../icones/eu.jpg);
+}
+header{
+    margin: 50px 30px 0px 30px;
+    padding: 40px 30px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.267);
+}
+header p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+a{
+    color:rgb(197, 152, 152);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: var(--cor2);
+}
+
+h1{
+    color:white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: var(--font1);
+    font-size: 3em;
+
+}
+div > img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin:10px 0px ;
+    font-family: var(--font1);
+    font-size: 1.8em;
+}
+p{
+    color:black;
+    text-align: center;
+}
+p > a{
+    color:var(--cor1) ;
+}
+aside{
+    background-color: var(--cor2);
+    margin: 0px 30px 50px 30px;
+    padding: 30px 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+}
+aside > nav{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-position: inside;
+    list-style-type: '\2714\00A0';
+    font-size: 1.5em;
+    text-align: center;
+}
+aside a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
+}
+nav > ul{
+    transition-duration: 1s;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor1);
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4))
+}
+footer a{
+    font-weight: bolder;
+    text-decoration:none ;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
+}
